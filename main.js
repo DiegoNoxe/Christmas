@@ -33,7 +33,8 @@ const gifs =
 let i = 0;
 
 
-function changeGif() {
+function changeGif()
+{
     i = (i + 1) % gifs.length;  
     document.getElementById("gif").src = gifs[i];  
 }
